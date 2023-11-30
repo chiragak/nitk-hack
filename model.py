@@ -88,3 +88,12 @@ history = model.fit(
     validation_data=(test_images, test_labels)
 )
 
+# Plot training & validation accuracy
+plt.plot(history.history['accuracy'])
+plt.plot(history.history['val_accuracy'])
+plt.title('Model Accuracy')
+plt.ylabel('Accuracy')
+plt.xlabel('Epoch')
+plt.legend(['Train', 'Validation'], loc='upper left')
+plt.show()
+
