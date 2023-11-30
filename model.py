@@ -97,3 +97,5 @@ plt.xlabel('Epoch')
 plt.legend(['Train', 'Validation'], loc='upper left')
 plt.show()
 
+# Saving the model
+model.save('my_digit_symbol_model.keras')
