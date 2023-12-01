@@ -9,7 +9,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dropout, Flatten, Dense
 import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
-data_dir = r"C:\Users\SHAMANTH\Desktop\Magic-Chalk-main\dataset1"
+data_dir = r"/home/chirag/Documents/GitHub/nitk-hack/dataset"
 
 def load_images(directory):
     images = []
@@ -79,7 +79,7 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 # Train
 history = model.fit(
     train_images, train_labels,
-    epochs=60, 
+    epochs=30, 
     batch_size=32,
     validation_data=(test_images, test_labels)
 )

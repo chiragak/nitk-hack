@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 model = load_model('my_digit_symbol_model.keras')
 
 
-def segment_and_predict(image_path = '/home/chirag/sketchsync/mask_capture.jpeg'):
+def segment_and_predict(image_path = '/home/chirag/Documents/GitHub/nitk-hack/mask_capture.jpeg'):
     image = cv2.imread(image_path)
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 

@@ -273,11 +273,11 @@ def cs_sidebar():
 
 def info_pics():
     """ Images for the instructions """
-    st.image('Instructions_pic/draw.png')
-    st.image('instructions_pic/erase.png')
-    st.image('instructions_pic/clear.png')
-    st.image('instructions_pic/solution.png')
-    st.image('instructions_pic/bookmark.png')
+    st.image('/home/chirag/Documents/GitHub/nitk-hack/Instructions_pic/draw.png')
+    st.image('/home/chirag/Documents/GitHub/nitk-hack/Instructions_pic/erase.png')
+    st.image('/home/chirag/Documents/GitHub/nitk-hack/Instructions_pic/clear.png')
+    st.image('/home/chirag/Documents/GitHub/nitk-hack/Instructions_pic/solution.png')
+    st.image('/home/chirag/Documents/GitHub/nitk-hack/Instructions_pic/bookmark.png')
 
 
 def info_captions():
