@@ -305,7 +305,7 @@ def cs_body():
 		# OPEN THE CAMERA
 		open_camera(camera_view_placeholder)  
 
-	st.markdown("Made by William Kiem Lafond, Kevin Liu, Orlando Qiu, and David Zhou")
+	st.markdown("Made by Team Aasha")
 
 
 
